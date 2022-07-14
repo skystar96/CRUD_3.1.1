@@ -11,12 +11,12 @@ import spring.crud.CRUD_311.service.UserService;
 import java.util.List;
 
 @Controller
-public class userController {
+public class UserController {
 
     private UserService userService;
 
     @Autowired
-    userController(UserService userService) {
+    UserController(UserService userService) {
         this.userService = userService;
     }
 
